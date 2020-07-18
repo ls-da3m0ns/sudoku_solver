@@ -21,4 +21,11 @@
 
 
 ## Images 
+ ![image no 1]
+ #### initial
+ <img src = "output/raw1.jpeg" width = 400px style = "padding:20px;"></img>
+ #### processed
+ <img src = "output/processed1.jpeg" width = 400px style = "padding:20px;"></img>
+ #### output 
+ <img src = "output/output1.jpeg" width = 400px style = "padding:20px;"></img>
  
