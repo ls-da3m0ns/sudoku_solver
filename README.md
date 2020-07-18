@@ -38,3 +38,7 @@
  <img src = "output/processed2.jpeg" width = 400px style = "padding:20px;"></img>
  #### output 
  <img src = "output/output2.jpeg" width = 400px style = "padding:20px;"></img>
+
+
+## To Do
+#### Further port this project to android and increase prediction speed of model 
