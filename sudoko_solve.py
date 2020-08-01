@@ -1,7 +1,7 @@
 import numpy as np
 import sys 
 
-#set recursion limit 
+#set recursion
 sys.setrecursionlimit(10**6)
 
 #defining variables which will be used during recursion
