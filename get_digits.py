@@ -56,16 +56,7 @@ def get_digits(img,model):
             (x, y, w, h) = cv2.boundingRect(c)
             blank[y:y + h, x:x + w] = 0
             
-    #kernel = np.ones((5,1),np.uint8)
-    #blank = cv2.erode(blank,kernel,iterations=1)
-    #kernel = np.ones((6,6),np.uint8)
-    #blank = cv2.morphologyEx(blank,cv2.MORPH_CLOSE,kernel)
-    #kernel = np.ones((1,5),np.uint8)
-    #blank = cv2.erode(blank,kernel,iterations=1)
-    #kernel = np.ones((9,9),np.uint8)
-    #blank = cv2.morphologyEx(blank,cv2.MORPH_CLOSE,kernel)
-    #kernel = np.ones((6,6),np.uint8)
-    #blank = cv2.dilate(blank,kernel,iterations=1)
+
 
     factor = blank.shape[0]//9
     unsolved = []
