@@ -1,7 +1,9 @@
 import numpy as np
 import cv2 
 def transform_perspective(img,points,size=720):
-    #size here is the final output size of the square image
+    """
+    size here is the final output size
+    """
     pts_source = np.float32(points)
     pts_dest = np.float32([[0,0],[size,0],[0,size],[size,size]])
     print(pts_dest,pts_source)
